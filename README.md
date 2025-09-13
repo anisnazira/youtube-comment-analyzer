@@ -3,9 +3,9 @@ This repository contains a machine learning pipeline developed for a Datathon pr
 
 ## Features
 
-Data Preprocessing – Cleans text, removes duplicates, and filters out emojis/links.
+Data Preprocessing – Cleans text, removes duplicates, and filters out emojis and links.
 
-Spam Detection – Logistic Regression + rule-based filtering to remove irrelevant comments.
+Spam Detection – Logistic Regression + rule-based filtering to remove irrelevant comments. Train on UCI Youtube Comments Dataset
 
 Categorization – Rule-based tagging into skincare, makeup, fragrance, or other.
 
@@ -13,27 +13,22 @@ Multi-class Classification – Fine-tuned DistilBERT model for deeper topic reco
 
 Sentiment Analysis – Uses RoBERTa (English) and XLM-RoBERTa (multilingual) for emotion detection.
 
-Unified Pipeline – Integrates multiple models into a single workflow for consistent processing.
 
-Visualization – Dashboards for spam breakdown, sentiment trends, and engagement metrics.
-
-📂 Dataset
+## Dataset
 
 Comments and video metadata were provided by the Datathon organizers in CSV format.
 
 No live scraping or YouTube API integration.
 
-🔮 Future Work
-
-Add multilingual support (Malay, English, Mandarin, Tamil).
+## Future Work
 
 Expand to competitor benchmarking across multiple brand channels.
 
-Use trend prediction to detect rising product interests (e.g., SPF skincare, vegan cosmetics).
+Use trend prediction to detect rising product interests (e.g., SPF skincare, hyaluronic acid serums).
 
 Connect with brand databases and dashboards for real-time insights.
 
-🛠️ Tech Stack
+## Tools & Frameworks
 
 Python, Pandas, Scikit-learn, Transformers (HuggingFace), Streamlit
 
