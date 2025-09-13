@@ -1,7 +1,7 @@
 # youtube-comment-analyzer
 This repository contains a machine learning pipeline developed for a Datathon project. It analyzes YouTube comments stored in CSV datasets (not connected to the YouTube API). The goal is to turn raw, noisy comments into business insights that beauty brands can use to understand engagement, sentiment, and trends.
 
-🚀 Features
+## Features
 
 Data Preprocessing – Cleans text, removes duplicates, and filters out emojis/links.
 
